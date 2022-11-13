@@ -1,11 +1,39 @@
-header, footer {
+body {
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
     background-color: #1f2937;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.section1 {
+    display: flex;
+}
+
+.image-section1 {
+    height: 500px;
+    width: 700px;
+}
+
+.header-image {
+    height: 480px;
+    width: 700px;
+    overflow: hidden;
 }
 
 .hero-main {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    margin-top: 0px;
 }
 
 .hero-secondary, .header-link {
@@ -16,6 +44,7 @@ header, footer {
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    margin-top: 10px;
 }
 
 button, .call-to-action-container{
@@ -33,4 +62,14 @@ button, .call-to-action-container{
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+footer {
+    background-color: #1f2937;
 }
