@@ -1,0 +1,36 @@
+header, footer {
+    background-color: #1f2937;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.hero-secondary, .header-link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button, .call-to-action-container{
+    background-color: #3882f6;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
