@@ -16,11 +16,8 @@ nav {
     width: 70%;
 }
 
-.header-sign-up {
-
-}
-
 .section1 {
+    margin: 3% 0;
     width: 70%;
     display: flex;
     justify-content: space-between;
@@ -31,6 +28,8 @@ nav {
     left: 45px;
     border-radius: 4px;
     flex: 1;
+    height: 90%;
+    min-width: 100%;
 }
 
 .hero-main {
@@ -49,6 +48,14 @@ nav {
     font-size: 24px;
     color: #f9faf8;
     margin-top: 10px;
+}
+
+.header-button {
+    color: #f9faf8;
+    padding: 6px 20px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 700;
 }
 
 button, .call-to-action-container{
