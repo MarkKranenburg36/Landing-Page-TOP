@@ -10,23 +10,18 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    padding-right: 16px;
-    padding-left: 16px;
+    padding: 0px 50px;
 }
 
 .section1 {
+    padding: 0px 50px;
     display: flex;
+
 }
 
 .image-section1 {
-    height: 500px;
-    width: 700px;
-}
-
-.header-image {
-    height: 480px;
-    width: 700px;
-    overflow: hidden;
+    border-radius: 4px;
+    width: 120%;
 }
 
 .hero-main {
