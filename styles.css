@@ -137,6 +137,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:30px;
 }
 
 .call-to-action-container {
@@ -171,4 +172,11 @@ nav {
 /*footer*/
 footer {
     background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-p {
+    margin: 100xp 0px;
 }
